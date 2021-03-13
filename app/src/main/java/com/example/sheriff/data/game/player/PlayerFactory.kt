@@ -4,6 +4,9 @@ import com.example.sheriff.data.game.GameConfig
 import com.example.sheriff.data.player.Card
 import com.example.sheriff.data.player.PeacefulRole
 
+/**
+ * Use to create players
+ */
 object PlayerFactory {
 
     fun createDefaultPlayer(playerNumber: PlayerNumber, gameConfig: GameConfig): Player {
