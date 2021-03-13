@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Sheriff</string>
-    <string name="display_name.card.peaceful">Мирный игрок</string>
-    <string name="display_name.card.mafia">Мафия</string>
-    <string name="display_name.card.maniac">Маньяк</string>
-    <string name="display_name.role_sheriff">Комиссар</string>
-    <string name="display_name.role.doctor">Доктор</string>
-    <string name="display_name.role.kamikaze">Камикадзе</string>
-    <string name="display_name.role.terrorist">Шахид</string>
 </resources>
