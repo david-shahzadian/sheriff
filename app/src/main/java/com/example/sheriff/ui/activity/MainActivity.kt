@@ -1,7 +1,8 @@
-package com.example.sheriff
+package com.example.sheriff.ui.activity
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.sheriff.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
