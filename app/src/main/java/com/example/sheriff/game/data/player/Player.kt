@@ -1,4 +1,4 @@
-package com.example.sheriff.data.game.player
+package com.example.sheriff.game.data.player
 
 /**
  * Includes info about a current player

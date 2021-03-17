@@ -1,4 +1,4 @@
-package com.example.sheriff.data.game.player
+package com.example.sheriff.game.data.player
 
 import com.example.sheriff.data.player.Card
 import com.example.sheriff.data.player.PeacefulRole
