@@ -1,9 +1,9 @@
-package com.example.sheriff.data.game.factor
+package com.example.sheriff.game.data.factor
 
-import com.example.sheriff.data.game.Emotion
-import com.example.sheriff.data.game.GameLeaveCause
-import com.example.sheriff.data.game.SheriffCheckResult
-import com.example.sheriff.data.game.player.Player
+import com.example.sheriff.game.data.Emotion
+import com.example.sheriff.game.data.GameLeaveCause
+import com.example.sheriff.game.data.SheriffCheckResult
+import com.example.sheriff.game.data.player.Player
 import com.example.sheriff.data.player.PeacefulRole
 
 /**

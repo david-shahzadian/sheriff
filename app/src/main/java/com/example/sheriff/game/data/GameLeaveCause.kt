@@ -1,6 +1,6 @@
-package com.example.sheriff.data.game
+package com.example.sheriff.game.data
 
-import com.example.sheriff.data.game.player.Player
+import com.example.sheriff.game.data.player.Player
 
 /**
  * Includes all possible types of player's game leave causes

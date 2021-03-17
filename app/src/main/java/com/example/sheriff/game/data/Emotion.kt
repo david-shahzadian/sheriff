@@ -1,4 +1,4 @@
-package com.example.sheriff.data.game
+package com.example.sheriff.game.data
 
 enum class Emotion {
 

@@ -1,4 +1,4 @@
-package com.example.sheriff.data.game.state
+package com.example.sheriff.game.usecase.state
 
 /**
  * Includes info about game current state

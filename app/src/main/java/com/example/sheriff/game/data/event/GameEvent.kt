@@ -1,7 +1,7 @@
-package com.example.sheriff.data.game.event
+package com.example.sheriff.game.data.event
 
-import com.example.sheriff.data.game.GameLeaveCause
-import com.example.sheriff.data.game.player.Player
+import com.example.sheriff.game.data.GameLeaveCause
+import com.example.sheriff.game.data.player.Player
 
 /**
  * Includes all possible types of game events

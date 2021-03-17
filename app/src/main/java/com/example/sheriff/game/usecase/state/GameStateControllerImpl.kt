@@ -1,7 +1,7 @@
-package com.example.sheriff.data.game.state
+package com.example.sheriff.game.usecase.state
 
-import com.example.sheriff.data.game.event.GameEvent
-import com.example.sheriff.data.game.player.Player
+import com.example.sheriff.game.data.event.GameEvent
+import com.example.sheriff.game.data.player.Player
 import kotlinx.coroutines.channels.Channel
 
 class GameStateControllerImpl : GameStateController {
