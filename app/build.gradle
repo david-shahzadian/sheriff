@@ -9,11 +9,6 @@ android {
     compileSdkVersion 30
     buildToolsVersion "30.0.3"
 
-    buildFeatures {
-        // Enables Jetpack Compose for this module
-        compose true
-    }
-
     defaultConfig {
         applicationId "com.example.sheriff"
         minSdkVersion 24
@@ -36,10 +31,6 @@ android {
     }
     kotlinOptions {
         jvmTarget = '1.8'
-    }
-
-    composeOptions {
-        kotlinCompilerExtensionVersion '1.0.0-beta01'
     }
 }
 

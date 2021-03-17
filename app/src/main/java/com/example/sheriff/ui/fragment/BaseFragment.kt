@@ -27,22 +27,22 @@ abstract class BaseFragment<VS : ViewState> : Fragment(), Observer<VS> {
     protected lateinit var viewModel: BaseViewModel<VS>
         private set
 
-    override fun onAttach(context: Context) {
-        super.onAttach(context)
-        viewModel = initializeViewModel()
-        viewModel.liveData.observe(viewLifecycleOwner, this)
-    }
-
-    override fun onDetach() {
-        super.onDetach()
-        viewModel.liveData.removeObserver(this)
-    }
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? = container?.let { contentView.get(it, false) }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+        super.onViewCreated(view, savedInstanceState)
+        viewModel = initializeViewModel()
+        viewModel.liveData.observe(viewLifecycleOwner, this)
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        viewModel.liveData.removeObserver(this)
+    }
 
     /**
      * @return view model of the current fragment
